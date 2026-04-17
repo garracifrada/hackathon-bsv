@@ -1,0 +1,54 @@
+# 🦞 Hackathon BSV - Git Ignore (Solo Claves Privadas)
+
+# 🔑 CLAVES PRIVADAS - NUNCA COMMIT
+# Private keys (WIF formato)
+*.wif
+
+# 🔐 Certificados no encriptados
+certs/*.pem
+certs/*.crt
+certs/*.key
+
+# 📝 Logs con datos sensibles (NO ignores todo el directorio)
+logs/*.log
+logs/*.json
+
+# 🌐 Configuraciones con API keys
+config/.env
+.env
+.env.*
+*.env
+
+# 📦 Build artifacts
+dist/
+build/
+*.min.js
+
+# 📜 Archives
+*.tar
+*.tar.gz
+*.zip
+
+# 🐙 Docker sensitive
+.docker/config.json
+
+# 📝 IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 🎨 Build tool caches
+.npm/
+.nx/
+package-lock.json
+yarn.lock
+
+# 🔒 Private storage (solo archivos, no directorios)
+private/*.json
+.secrets/*.json
+
+# 🧹 Temporales
+*.bak
+*.tmp
+.cache/
