@@ -1,0 +1,3 @@
+[submodule "openclaw-bsv-plugins"]
+	path = openclaw-bsv-plugins
+	url = https://github.com/samooth/openclaw-bsv-plugins.git
